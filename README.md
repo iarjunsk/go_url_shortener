@@ -10,7 +10,7 @@
       3. Shows notification using go and js
       4. Using clipboard.js to enable copy functionality
        
-Make sure your read my complete tutorial series on ["Getting Started with Firebase."](http://www.arjunsk.com/tag/firebase/)
+Make sure your read my complete tutorial series on ["Getting Started with Go."](http://www.arjunsk.com/tag/firebase/)
 
 #### App Demo
 [ Shortify-Heroku  ](https://shortify-go.herokuapp.com)
