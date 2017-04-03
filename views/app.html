@@ -1,0 +1,34 @@
+{{template "header" .}}
+{{template "navigation" .}}
+
+	<div class="wrap">
+		<h1>
+			<img src="/public/img/logo.png">
+			Shortify
+		</h1>
+
+		<form action="" class="container" method="POST">
+		  <input value="{{.Long_url}}" name="long_url" class="urlTerm" type="text"
+				 placeholder="Long URL, eg :- http://www.google.com/... ">
+		  <button type="submit"   class="urlButton">
+			<i class="fa fa-link"></i>
+		  </button>	 
+		</form>
+		
+		</br>
+		</br>
+		</br>
+		
+		<div class="container">	
+			<input  id="shortenURL" readonly type="text" class="copyTerm" value="{{.Short_url}}" placeholder="Short URL" />
+			<button data-clipboard-target="#shortenURL" class="copyButton">
+				<i class="fa fa-clipboard" aria-hidden="true"></i>
+			</button>
+		</div>
+
+
+		
+	</div>
+
+
+{{template "footer" .}}

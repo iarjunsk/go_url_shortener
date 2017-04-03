@@ -1,0 +1,141 @@
+	body{
+	  padding: 0;
+	  margin:0;
+	  background-color: #202833;
+	  font-family: 'Open Sans', sans-serif;
+	}
+	h1 {
+		color: #fff;
+		font-size: 30px;
+		font-weight: bold;
+		padding-bottom: 10px;
+
+	}
+	form, h1 {
+		text-align: left;
+		font-family: 'Montserrat';
+	}
+	.container {
+	  width: 100%;
+	  position: relative
+	}
+	.urlTerm {
+	  float: left;
+	  width: 100%;
+	  border: 3px solid #00B4CC;
+	  padding: 5px;
+	  height: 20px;
+	  border-radius: 5px;
+	  outline: none;
+	  color: #9DBFAF;
+	}
+	.urlTerm:focus{
+	  color: #00B4CC;
+	}
+	.urlButton {
+	  position: absolute;  
+	  right: -50px;
+	  width: 40px;
+	  height: 35px;
+	  border: 1px solid #00B4CC;
+	  background: #00B4CC;
+	  text-align: center;
+	  color: #fff;
+	  border-radius: 5px;
+	  cursor: pointer;
+	  font-size: 20px;
+	}
+
+	/*Resize the wrap to see the search bar change!*/
+	.wrap{
+	  width: 30%;
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	}
+	
+	
+	
+	
+/*=====================================Copy Button CSS=========================== */
+
+	.copyTerm {
+	  float: left;
+	  width: 50%;
+	  border: 3px solid #00B4CC;
+	  padding: 5px;
+	  height: 20px;
+	  border-radius: 5px;
+	  outline: none;
+	  color: #9DBFAF;
+	}
+
+
+
+	.copyButton {
+	  position: absolute;  
+	  width: 34px;
+	  height: 34px;
+	  border: 1px solid #00B4CC;
+	  background: #00B4CC;
+	  text-align: center;
+	  color: #fff;
+	  border-radius: 5px;
+	  cursor: pointer;
+	  font-size: 20px;
+	}
+
+	.copied::after {
+	  position: absolute;
+	  top: 12%;
+	  right: 110%;
+	  display: block;
+	  content: "copied";
+	  font-size: 0.75em;
+	  padding: 2px 3px;
+	  color: #fff;
+	  background-color: #22a;
+	  border-radius: 3px;
+	  opacity: 0;
+	  will-change: opacity, transform;
+	  animation: showcopied 1.5s ease;
+	}
+/*============================Navigation Bar CSSS================================*/
+
+	#nav { width: 100%; margin: 0 auto; overflow:hidden;  }
+
+	#nav a:hover {
+		background: #5d82cf;
+		text-decoration: none;
+	}
+
+	#nav ul {
+		list-style: NONE;
+		color: #EEE;
+		width: 100%;
+		position: fixed;
+		top: 0%;
+		z-index: 55;
+		margin: 0;
+		padding: 0;
+	}
+
+	#nav ul li {
+		float: RIGHT;
+		width: 8.97%;
+		padding: 0;
+		text-align: CENTER;
+		font-size: 95%;
+	}
+
+	#nav ul li a {
+		display: BLOCK;
+		color: #EEE;
+		padding: 5.5% 0%;
+	}
+
+	a {
+		text-decoration: none;
+		color: #ffffff;
+	}
